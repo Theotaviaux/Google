@@ -1,0 +1,36 @@
+body 
+{display: flex;
+justify-content: space-between;
+flex-direction: column;
+height: 85vh;
+font-family: arial;}
+
+.header 
+{display: flex;
+align-items: center;
+justify-content: flex-end;}
+
+.header a, .header button 
+{margin: 2px 2px 10px 10px;}
+
+.logo, .search-box, .button 
+{margin: 10px 10px 5px 5px;}
+
+.main 
+{display: flex;
+align-items: center;
+flex-direction: column;}
+
+
+.footer 
+{display: flex;
+flex-direction: column;}
+
+.links 
+{display: flex;
+flex-direction: row;
+justify-content: space-between;}
+
+.right 
+{display: flex;
+justify-content: flex-end;}
